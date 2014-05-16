@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/chords22"
+    android:orientation="vertical" >
+
+	    <ImageView
+	        android:id="@+id/image"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_gravity="center"
+	        android:layout_margin="10dip"
+	        android:gravity="center" 
+	        />
+
+	    <TextView
+	        android:id="@+id/gestureStatusText"
+	        android:layout_width="166dp"
+	        android:layout_height="70dp"
+	        android:layout_margin="10dip"
+	        android:layout_x="76dp"
+	        android:layout_y="15dp"
+	        android:gravity="center"
+	        android:text="Welcome to Guitar Tuner! Swipe screen to begin. " />
+
+</AbsoluteLayout>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:stretchColumns="*">
+    <TableRow>
+	    <TextView
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+	        android:text="Voice Recorder Demo" 
+	        android:layout_span="2"
+	        android:layout_gravity="center"
+	        android:padding="12dip"/>
+    </TableRow>
+    <TableRow>
+
+	    <Button
+	        android:id="@+id/recordButt"
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+	        android:layout_margin="12dip"
+	        android:text="record" />
+
+	    <Button
+	        android:id="@+id/play_back_button"
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+	        android:layout_margin="12dip"
+	        android:text="play" />
+
+    </TableRow>
+</TableLayout>

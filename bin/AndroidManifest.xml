@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.guitartuner"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="10" />
+
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/Theme.AppCompat.Light.NoTitleBar" >
+        <activity
+            android:name="com.example.guitartuner.MainActivity"
+            android:label="@string/app_name"
+            android:theme="@style/Theme.AppCompat.Light.NoTitleBar" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.guitartuner.TunerActivity"
+            android:label="@string/title_activity_tuner" >
+        </activity>
+        <activity
+            android:name="com.example.guitartuner.RecorderActivity"
+            android:label="@string/title_activity_recorder" >
+        </activity>
+        <activity
+            android:name="com.example.guitartuner.GalleryActivity"
+            android:label="@string/title_activity_gallery" >
+        </activity>
+    </application>
+
+</manifest>

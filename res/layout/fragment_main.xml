@@ -1,0 +1,42 @@
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/guitar"
+    android:orientation="vertical"
+    tools:context="com.example.guitartuner.MainActivity$PlaceholderFragment" >
+
+    <Button
+        android:id="@+id/playBtn"
+        android:layout_width="218dp"
+        android:layout_height="48dp"
+        android:layout_x="52dp"
+        android:layout_y="383dp"
+        android:background="#160000FF"
+        android:onClick="recorderButton"
+        android:text="Record"
+        android:textColor="@android:color/white" />
+
+    <Button
+        android:id="@+id/startBtn"
+        android:layout_width="222dp"
+        android:layout_height="60dp"
+        android:layout_x="49dp"
+        android:layout_y="329dp"
+        android:background="#160000FF"
+        android:onClick="tunerButton"
+        android:text="Tuner"
+        android:textColor="@android:color/white" />
+
+    <Button
+        android:id="@+id/galleryBtn"
+        android:layout_width="218dp"
+        android:layout_height="54dp"
+        android:layout_x="52dp"
+        android:layout_y="437dp"
+        android:background="#160000FF"
+        android:onClick="galleryButton"
+        android:text="Gallery"
+        android:textColor="@android:color/white" />
+
+</AbsoluteLayout>
